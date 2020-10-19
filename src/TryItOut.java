@@ -11,5 +11,10 @@ public class TryItOut {
         numbers[6] = 54;
         numbers[7] = 36;
         System.out.println(numbers.length);
+
+        int a = 7;
+        int b = 3;
+        double c = (double)a / (double)b;
+        System.out.println(c);
     }
 }
