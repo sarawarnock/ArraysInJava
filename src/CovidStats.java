@@ -87,7 +87,7 @@ public class CovidStats {
         }
         System.out.printf("The smallest daily increase of %d happened on %d\n", smallest, smallestIndex);
 
-        //Weekly average increase
+        //Weekly average increase!!
         int weekNum = 1;
         int sevenDaySum = 0;
         for (int k = 0; k < dailyCaseCount.length; k = k + 1) {
